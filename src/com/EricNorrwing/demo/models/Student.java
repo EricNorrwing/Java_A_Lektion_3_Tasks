@@ -15,6 +15,7 @@ public class Student {
         return sum;
     }
 
+    //toString override to make decipherable outputs
     @Override
     public String toString() {
         return "This person is called " + name + " and is " + age + " years old";

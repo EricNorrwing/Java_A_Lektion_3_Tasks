@@ -13,10 +13,16 @@ public class Student {
     }
 
     //used in task 7, rows here are 16-19, rows 36-38 in Main.
-    public int doubleMyAge(int age){
+    public static int doubleMyAge(int age){
         int sum = age*2;
         return sum;
     }
+    public int doubleBennyAge(int age){
+        return age*2;
+    }
+
+
+
 
     //toString override to make decipherable outputs
     @Override

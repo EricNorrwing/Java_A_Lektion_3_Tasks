@@ -53,6 +53,10 @@ public class Main {
 
         Student benny = new Student("Benny", 18);
         System.out.println(benny);
+
+        //Task 7 fix because it did not actually double the value, left the code as is
+        System.out.println(benny.doubleBennyAge(benny.age));
+
     }
     //age randomizer for Student objects, values 1-10
     public static int randomAge(){
